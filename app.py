@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from ECS CI/CD! 🎉"
+    return "Hello from ECS CI/CD! Testing ! 🎉"
 
 
 @app.route("/health")
